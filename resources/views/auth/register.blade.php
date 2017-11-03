@@ -1,24 +1,15 @@
 @extends('layouts.app')
 
 @section('content')
-<<<<<<< HEAD
 {{-- <div class="container"> --}}
     <div class="row" style="position:relative; top:20px;">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-primary">
                 <div class="panel-heading text-center"><h5>Register</h5></div>
-=======
-<div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
-                <div class="panel-heading">Register</div>
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
 
                 <div class="panel-body">
                     <form class="form-horizontal" method="POST" action="{{ route('register') }}">
                         {{ csrf_field() }}
-<<<<<<< HEAD
                         <div class="form-group{{ $errors->has('fullname') ? ' has-error' : '' }}">
                             <label for="fullname" class="col-md-4 control-label">Full Name</label>
 
@@ -42,18 +33,6 @@
                                 @if ($errors->has('username'))
                                     <span class="help-block">
                                         <strong>{{ $errors->first('username') }}</strong>
-=======
-
-                        <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
-                            <label for="name" class="col-md-4 control-label">Name</label>
-
-                            <div class="col-md-6">
-                                <input id="name" type="text" class="form-control" name="name" value="{{ old('name') }}" required autofocus>
-
-                                @if ($errors->has('name'))
-                                    <span class="help-block">
-                                        <strong>{{ $errors->first('name') }}</strong>
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
                                     </span>
                                 @endif
                             </div>

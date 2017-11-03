@@ -7,11 +7,6 @@
  * @author   Taylor Otwell <taylor@laravel.com>
  */
 
-<<<<<<< HEAD
-=======
-define('LARAVEL_START', microtime(true));
-
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
@@ -20,19 +15,11 @@ define('LARAVEL_START', microtime(true));
 | Composer provides a convenient, automatically generated class loader for
 | our application. We just need to utilize it! We'll simply require it
 | into the script here so that we don't have to worry about manual
-<<<<<<< HEAD
 | loading any of our classes later on. It feels nice to relax.
 |
 */
 
 require __DIR__.'/../bootstrap/autoload.php';
-=======
-| loading any of our classes later on. It feels great to relax.
-|
-*/
-
-require __DIR__.'/../vendor/autoload.php';
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
 
 /*
 |--------------------------------------------------------------------------

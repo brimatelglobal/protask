@@ -18,7 +18,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-<<<<<<< HEAD
 Route::get('/profile/{username}', 'ProfileController@profile');
 Route::get('/user', 'ProfileController@user');
 Route::get('/user/create', 'ProfileController@create');
@@ -44,5 +43,3 @@ Route::get('/receivable/{id}', 'ReceivableController@show');
 Route::get('/receivable/{id}/edit', 'ReceivableController@edit');
 Route::put('receivablet/{id}', 'ReceivableController@update');
 Route::post('/receivable/{id}', 'ReceivableController@destroy');
-=======
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
