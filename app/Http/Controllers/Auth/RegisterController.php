@@ -36,11 +36,7 @@ class RegisterController extends Controller
      */
     public function __construct()
     {
-<<<<<<< HEAD
         $this->middleware('auth');
-=======
-        $this->middleware('guest');
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
     }
 
     /**
@@ -52,18 +48,12 @@ class RegisterController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-<<<<<<< HEAD
            'username' => 'required|max:255',
            'email' => 'required|email|max:255|unique:users',
            'password' => 'required|min:6|confirmed',
            'fullname' =>'required',
            'position' => 'required',
            'phone'=>'required|min:10',
-=======
-            'name' => 'required|string|max:255',
-            'email' => 'required|string|email|max:255|unique:users',
-            'password' => 'required|string|min:6|confirmed',
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
         ]);
     }
 
@@ -71,16 +61,11 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-<<<<<<< HEAD
      * @return User
-=======
-     * @return \App\User
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
      */
     protected function create(array $data)
     {
         return User::create([
-<<<<<<< HEAD
            'fullname' =>$data['fullname'],
            'username' =>$data['username'],
            'email' => $data['email'],
@@ -88,11 +73,6 @@ class RegisterController extends Controller
            'password' => bcrypt($data['password']),
            'position' => $data['position'],
            'address'=>$data['address'],
-=======
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => bcrypt($data['password']),
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
         ]);
     }
 }

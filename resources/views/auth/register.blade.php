@@ -51,7 +51,6 @@
                                 @endif
                             </div>
                         </div>
-<<<<<<< HEAD
                         <div class="form-group{{ $errors->has('phone') ? ' has-error' : '' }}">
                             <label for="phone" class="col-md-4 control-label">Phone Number</label>
 
@@ -65,8 +64,6 @@
                                 @endif
                             </div>
                         </div>
-=======
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
 
                         <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
                             <label for="password" class="col-md-4 control-label">Password</label>
@@ -89,7 +86,6 @@
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
                             </div>
                         </div>
-<<<<<<< HEAD
                         <div class="form-group{{ $errors->has('position') ? ' has-error' : '' }}">
                             <label for="position" class="col-md-4 control-label">Position</label>
 
@@ -120,11 +116,6 @@
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
                                 <a href="/home" class="btn btn-default">Cancel</a>
-=======
-
-                        <div class="form-group">
-                            <div class="col-md-6 col-md-offset-4">
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
                                 <button type="submit" class="btn btn-primary">
                                     Register
                                 </button>
@@ -135,9 +126,5 @@
             </div>
         </div>
     </div>
-<<<<<<< HEAD
 {{-- </div> --}}
-=======
-</div>
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
 @endsection

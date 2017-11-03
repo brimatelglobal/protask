@@ -4,10 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
-<<<<<<< HEAD
 use App\Project;
-=======
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
 
 class LoginController extends Controller
 {
@@ -29,10 +26,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-<<<<<<< HEAD
      
-=======
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
     protected $redirectTo = '/home';
 
     /**
@@ -42,10 +36,6 @@ class LoginController extends Controller
      */
     public function __construct()
     {
-<<<<<<< HEAD
         $this->middleware('guest', ['except' => 'logout']);
-=======
-        $this->middleware('guest')->except('logout');
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
     }
 }
