@@ -10,16 +10,9 @@ return [
     | This value is the name of your application. This value is used when the
     | framework needs to place the application's name in a notification or
     | any other location as required by the application or its packages.
-<<<<<<< HEAD
     */
 
-    'name' => 'ProTask',
-=======
-    |
-    */
-
-    'name' => env('APP_NAME', 'Laravel'),
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
+    'name' => 'ProTaskOne',
 
     /*
     |--------------------------------------------------------------------------
@@ -45,7 +38,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', false),
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -169,18 +162,12 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-<<<<<<< HEAD
         Collective\Html\HtmlServiceProvider::class,
-=======
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
 
         /*
          * Package Service Providers...
          */
-<<<<<<< HEAD
         Laravel\Tinker\TinkerServiceProvider::class,
-=======
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
 
         /*
          * Application Service Providers...
@@ -239,11 +226,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-<<<<<<< HEAD
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
-=======
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
 
     ],
 

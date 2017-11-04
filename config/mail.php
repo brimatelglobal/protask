@@ -90,22 +90,6 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-<<<<<<< HEAD
-=======
-    | Sendmail System Path
-    |--------------------------------------------------------------------------
-    |
-    | When using the "sendmail" driver to send e-mails, we will need to know
-    | the path to where Sendmail lives on this server. A default path has
-    | been provided here, which will work well on most of your systems.
-    |
-    */
-
-    'sendmail' => '/usr/sbin/sendmail -bs',
-
-    /*
-    |--------------------------------------------------------------------------
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
     | Markdown Mail Settings
     |--------------------------------------------------------------------------
     |

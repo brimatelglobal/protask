@@ -122,14 +122,7 @@ return [
     |
     */
 
-<<<<<<< HEAD
     'cookie' => 'laravel_session',
-=======
-    'cookie' => env(
-        'SESSION_COOKIE',
-        str_slug(env('APP_NAME', 'laravel'), '_').'_session'
-    ),
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
 
     /*
     |--------------------------------------------------------------------------
@@ -183,22 +176,4 @@ return [
 
     'http_only' => true,
 
-<<<<<<< HEAD
-=======
-    /*
-    |--------------------------------------------------------------------------
-    | Same-Site Cookies
-    |--------------------------------------------------------------------------
-    |
-    | This option determines how your cookies behave when cross-site requests
-    | take place, and can be used to mitigate CSRF attacks. By default, we
-    | do not enable this as other CSRF protection services are in place.
-    |
-    | Supported: "lax", "strict"
-    |
-    */
-
-    'same_site' => null,
-
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
 ];

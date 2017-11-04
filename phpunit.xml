@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit backupGlobals="false"
          backupStaticAttributes="false"
-<<<<<<< HEAD
          bootstrap="bootstrap/autoload.php"
-=======
-         bootstrap="vendor/autoload.php"
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
          colors="true"
          convertErrorsToExceptions="true"
          convertNoticesToExceptions="true"
@@ -13,19 +9,11 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-<<<<<<< HEAD
         <testsuite name="Feature Tests">
             <directory suffix="Test.php">./tests/Feature</directory>
         </testsuite>
 
         <testsuite name="Unit Tests">
-=======
-        <testsuite name="Feature">
-            <directory suffix="Test.php">./tests/Feature</directory>
-        </testsuite>
-
-        <testsuite name="Unit">
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
             <directory suffix="Test.php">./tests/Unit</directory>
         </testsuite>
     </testsuites>

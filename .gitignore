@@ -1,20 +1,8 @@
 /node_modules
-<<<<<<< HEAD
-=======
-/public/hot
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
 /public/storage
 /storage/*.key
 /vendor
 /.idea
-<<<<<<< HEAD
 Homestead.json
 Homestead.yaml
-=======
-/.vagrant
-Homestead.json
-Homestead.yaml
-npm-debug.log
-yarn-error.log
->>>>>>> 1e7b2651de78a175a21a2a2ba25fc95e988905ee
 .env
